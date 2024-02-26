@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 install_requires = [
     "numpy>=1.22.0",
-    "networkx>=3.1",
+    "networkx>=2.5",
     "decorator==5.1.*",
     "pandas>=1.2.0",
     "gensim>=4.0.0",
@@ -46,7 +46,7 @@ keywords = [
 setup(
     name="karateclub",
     packages=find_packages(),
-    version="1.3.4",
+    version="1.3.4+quantexa",
     license="GPLv3",
     description="A general purpose library for community detection, network embedding, and graph mining research.",
     author="Benedek Rozemberczki",
